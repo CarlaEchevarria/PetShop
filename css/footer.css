@@ -1,0 +1,36 @@
+/* FOOTER GENERAL----------------------*/
+footer{
+    font-family: roboto;
+    color: var(--Color5);
+    background-color:var(--Color4);
+}
+/*********VER CONTENEDORES EN BASE.CSS*********/
+
+
+/*********ATRIBUTOS PARTICULARES*********/
+.footerprincipal img.circular{
+    margin: 10px 20px 10px 0px;
+}
+
+.footerprincipal h3{
+    align-self: flex-start;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footerprincipal p{
+    align-self: flex-start;
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--Color6);
+}
+
+.footerprincipal p.logofooter{
+    color: var(--Color5);
+    font-size: 20px;
+    margin: 0px 10px;
+}
+
+.logofooter span{
+    color: var(--Color1);
+}

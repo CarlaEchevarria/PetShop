@@ -1,0 +1,60 @@
+/* HEADER GENERAL----------------------*/
+header{
+    font-family: roboto;
+    color: var(--Color5);
+}
+/*********VER CONTENEDORES EN BASE.CSS*********/
+
+
+/*********ATRIBUTOS PARTICULARES*********/
+/*--Barra superior del Header --*/
+.barra-superior-del-header{
+    height: 20px;
+
+    background-color: var(--Color3);
+    font-size: 10px;
+}
+
+.selector-idioma-modeda{
+    justify-content: flex-end;
+}
+.selector-idioma-modeda p{
+    padding-left: 25px;
+    display: inline-flex;
+}
+.selector-idioma-modeda i{
+    padding-left: 5px;
+    display: inline-flex;
+}
+
+/*--Header Principal --*/
+.headerPrincipal{
+    height: 62px;
+    background-color: var(--Color1);
+}
+
+.logo h1{
+        font-size: 30px;
+        font-weight: 700;
+        margin: 0px 15px;
+}
+.logo h1 span{
+color: var(--Color3);
+}
+
+.logo img{
+    height: 30px;
+}
+
+.nav{
+    font-size: 16px;
+}
+
+li a{
+    color: var(--Color5);
+}
+
+li a:visited{
+    color: var(--Color5);
+}
+

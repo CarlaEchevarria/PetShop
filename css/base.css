@@ -1,0 +1,132 @@
+/* FUENTES */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* CSS */
+@import "styles.css";
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+
+/* DEFAULTS */
+
+:root{
+    --Color1:#F0A83E;
+    --Color2:#93d1ad;
+    --Color3: #222222;
+    --Color4: #3C2313;
+    --Color5: #F3F3F3;
+    --Color6: #666666;
+
+}
+
+*{box-sizing: border-box; 
+Padding: 0;
+Margin: 0;
+}
+
+a {
+text-decoration: none;
+display: inline-block;
+padding: 10px;
+}
+
+
+img {
+max-width: 100%;
+} 
+
+li{
+list-style-type: none
+}
+
+body {
+    font-family: roboto;
+    font-weight: 400;
+    } 
+
+
+/*********CONTENEDORES*********/
+.contenedor100porciento{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.contenedor80porciento{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.contenedor40porciento{
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+.contenedor-flex-principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.contenedor-flex-principal-columna{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.contenedor-flex-elemento{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:100%;
+}
+
+
+
+.contenedor-flex-elemento-justifycentrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+
+
+.contenedor-flex-elemento-columna{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height:100%;
+}
+
+.contenedor-flex-elemento-columna-alignstart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height:100%;
+}
+
+.columnaderecha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.columnaderechafooter{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.columnaizquierdafooter{
+    padding: 20px 0px;
+}
+

@@ -1,0 +1,183 @@
+/* MAIN GENERAL----------------------*/
+main {
+    font-family: roboto;
+    font-weight: 400;
+    } 
+
+
+/*********VER CONTENEDORES EN BASE.CSS*********/
+
+
+/*********ATRIBUTOS PARTICULARES*********/
+/*-- Heroe --*/
+.heroe{
+    background-color: var(--Color2);
+    background-image: url(../img/fondoheroe.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+}
+
+
+
+.textoresaltadoheroe{
+    background-color: var(--Color5);
+    border-radius: 5px;
+    color: var(--Color4);
+    padding: 10px;
+    font-size: 30px;
+    margin: 18px;
+}
+
+.textocomunoheroe{
+    color: var(--Color4);
+    padding: 10px;
+    font-size: 16px;
+    margin: 18px;
+}
+
+.botonheroe{
+    background-color: var(--Color1);
+    border-radius: 5px;
+    color: var(--Color5);
+    padding: 15px;
+    font-size: 16px;
+    margin: 18px;
+}
+
+/*-- Productos Destacados --*/
+.ProductosDestacados{
+    padding:20px;
+}
+
+.ProductosDestacados i{
+    font-size: 60px;
+    color: var(--Color1);
+}
+
+.ProductosDestacados h2{
+    color: var(--Color4);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/*-- Navegador con links de Productos Destacados --*/
+
+.ProductosDestacados a, .nav-secundario p{
+    color: var(--Color6);
+    font-size: 15px;
+}
+
+.ProductosDestacados a:hover{
+    color: var(--Color1);
+}
+
+/*-- Cards --*/
+.cards .NombreProducto{
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--Color4);
+}
+
+.cards .precio{
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--Color1);
+}
+
+/*-- Formulario --*/
+.formulario{
+    padding: 40px 0px;
+}
+
+.formulario h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--Color4);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formulario label{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--Color4);
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 15px 15px 5px;
+}
+
+.formulario input{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--Color5);
+    display: block;
+    padding: 15px 20px;
+    background-color: var(--Color4);
+    border-radius: 15px;
+    width: 100%;
+    border: 0px;
+}
+
+.formulario input::placeholder{
+    color: var(--Color5);
+}
+
+.formulario button{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--Color5);
+    padding: 15px 20px;
+    background-color: var(--Color1);
+    border-radius: 15px;
+    width: 35%;
+    border: 0px;
+    margin: 40px 10px;
+}
+
+.formulario button.secundario{
+    background-color: var(--Color6);
+}
+
+/*-- Suscribirse --*/
+.suscribirse{
+    height: 60px;
+    background-color: var(--Color1);
+}
+
+.suscribirse p{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--Color5);
+    padding-left: 10px;
+}
+
+.suscribirse input{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--Color3);
+    padding: 10px 20px;
+    background-color: var(--Color5);
+    border-radius: 15px;
+    border: 0px;
+    width: 380px;
+}
+.suscribirse input::placeholder{
+    color: var(--Color6);
+}
+
+.suscribirse button{
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--Color5);
+    padding: 10px 20px;
+    background-color: var(--Color4);
+    border-radius: 15px;
+    border: 0px;
+    margin: 0px 10px;
+}
+

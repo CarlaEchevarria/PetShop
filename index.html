@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front Cat&dog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/base.css">
+</head>
+
+<body>
+    <!--HEADER -------------------------------------------------------->
+    <header>
+        <!--Barra superior del Header -------------------------------------------------------->
+        <div class="contenedor100porciento barra-superior-del-header">
+            <div class="contenedor-flex-principal contenedor80porciento barra-superior-del-header">
+                <p class="texto-promocional">Grandes ofertas en comederos</p>
+                <div class=" contenedor-flex-elemento selector-idioma-modeda">
+                    <p>Español <i class="fas fa-chevron-down"></i></p>
+                    <p>ARG $ <i class="fas fa-chevron-down"></i></p>
+                </div>
+            </div>
+        </div>
+
+        <!--Header Principal -------------------------------------------------------->
+        <div class="contenedor100porciento headerPrincipal">
+            <div class="contenedor-flex-principal contenedor80porciento headerPrincipal">
+                <div class="contenedor-flex-elemento logo">
+                    <img src="img/Cat.svg" alt="cara de gato">
+                    <h1> <span>Front</span>Cat&Dog </h1>
+                    <img src="img/Dog.svg" alt="cara de perro">
+                </div>
+                <nav>
+                    <ul class="contenedor-flex-elemento nav">
+                        <li><a href="#"><i class="fa fa-paw"></i> Categorías</a></li>
+                        <li><a href="#"><i class="fa fa-paw"></i> Pets</a></li>
+                        <li><a href="#"><i class="fa fa-paw"></i> Nosotros</a></li>
+                        <li><a href="#"><i class="fa fa-paw"></i> Contactanos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--MAIN -------------------------------------------------------->
+    <main>
+        <!-- heroe ----------------------------------------------->
+        <section class="heroe contenedor100porciento ">
+            <div class="contenedor-flex-principal contenedor80porciento">
+                <div class="columnaizquierda"></div>
+                <div class="columnaderecha">
+                    <div class="textoresaltadoheroe">
+                        <p>¡Es un placer tenerte aquí!</p>
+                    </div>
+                    <div class="textocomunheroe">
+                        <p>¡Comederos en descuento!</p>
+                    </div>
+                    <div class="botonheroe">
+                        <p>COMEDEROS</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- productos destacados ----------------------------------------------->
+        <section class="ProductosDestacados contenedor100porciento">
+            <div class="contenedor80porciento">
+                <div class="contenedor-flex-principal-columna">
+                    <i class="fa fa-paw "></i>
+                    <h2>Productos Destacados</h2>
+                </div>
+                <div class="contenedor-flex-elemento-justifycentrado nav-secundario">
+                    <a href="#">Comederos</a>
+                    <p>-</p>
+                    <a href="#">Accesorios</a>
+                    <p>-</p>
+                    <a href="#">Comida</a>
+                </div>
+                <div class="contenedor-flex-principal cards">
+                    <div class="contenedor-flex-elemento-columna ">
+                        <img src="img/churrasquito.png" alt="churrasquito">
+                        <p class="NombreProducto">Juguete Churrasquito</p>
+                        <p class="precio">$150</p>
+                    </div>
+                    <div class="contenedor-flex-elemento-columna ">
+                        <img src="img/comedero.png" alt="comedero">
+                        <p class="NombreProducto">Juguete Comedero para perro</p>
+                        <p class="precio">$250</p>
+                    </div>
+                    <div class="contenedor-flex-elemento-columna">
+                        <img src="img/Huesito.png" alt="huesito">
+                        <p class="NombreProducto"> Juguete Huesito</p>
+                        <p class="precio">$650</p>
+                    </div>
+                </div>
+            </div>
+            <!-- productos destacados ----------------------------------------------->
+
+
+
+
+
+
+        </section>
+        <!-- formulario de contacto  ----------------------------------------------->
+        <section class="formulario contenedor100porciento">
+            <div class="contenedor40porciento">
+                <h3>Contactanos</h3>
+                <form class="contenedor-flex-elemento-columna" action="/registro" method="POST">
+                    <label for="nombre">Nombre y Apellido</label>
+                    <input type="text" name="nombre" placeholder="Nombre y Apellido">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Ingresá tu correo electrónico">
+                    <label for="tel">Teléfono</label>
+                    <input type="tel" name="tel" placeholder="Teléfono">
+                    <div class="contenedor-flex-elemento-justifycentrado contenedor100porciento">
+                        <button class="secundario" type="reset">Resetear</button>
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+    <!--FOOTER -------------------------------------------------------->
+    <footer>
+        <!-- suscribirse al newsletter  ----------------------------------------------->
+        <div class="suscribirse contenedor100porciento">
+            <div class="contenedor-flex-principal contenedor80porciento">
+                <div class="contenedor-flex-elemento">
+                    <img src="img/enviar-correo 1.png" alt="suscribirse">
+                    <p>Suscríbete para más novedades</p>
+                </div>
+                <div class="contenedor-flex-elemento">
+                    <form action="/registro" method="POST">
+                        <input type="email" name="suscripcion" placeholder="Ingresá tu correo electrónico">
+                        <button type="submit">Suscribirme</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- footer grande  ----------------------------------------------->
+        <div class="footerprincipal contenedor100porciento">
+            <div class="contenedor-flex-principal contenedor80porciento">
+                <!-- columna izquierda  ----------------------------------------------->
+                <div class="contenedor-flex-elemento-columna-alignstart columnaizquierdafooter">
+                    <div class="contenedor-flex-elemento">
+                        <img class="circular" src="img/location.png" alt="mail">
+                        <div class="contenedor-flex-elemento-columna">
+                            <h3>Localidad</h3>
+                            <p>Calle - provincia</p>
+                        </div>
+                    </div>
+                    <div class="contenedor-flex-elemento">
+                        <img class="circular" src="img/Phone.png" alt="Teléfono">
+                        <div class="contenedor-flex-elemento-columna">
+                            <h3>Teléfono</h3>
+                            <p>Número de teléfono</p>
+                        </div>
+                    </div>
+                    <div class="contenedor-flex-elemento">
+                        <img class="circular" src="img/mail.png" alt="Correo Electrónico">
+                        <div class="contenedor-flex-elemento-columna">
+                            <h3>Correo Electrónico</h3>
+                            <p>Dirección de correo</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- columna derecha  ----------------------------------------------->
+                <div class="contenedor-flex-elemento columnaderechafooter">
+                    <img src="img/Cat.svg" alt="cara de gato">
+                    <p class="logofooter"> Front<span>Cat&Dog </span></p>
+                    <img src="img/Dog.svg" alt="cara de perro">
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
